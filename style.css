@@ -44,9 +44,6 @@ body{
     
 }
 
-.box1:hover{
-    filter: brightness(80%);
-}
 .text{
     position: absolute;
     color: rgb(255, 255, 255);
@@ -212,4 +209,9 @@ button{
     [class*="col-"] {
       width: 100%;
     }
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
   }
